@@ -40,7 +40,7 @@
 
 .buttonbar{width:23%;text-align:left;background-color:#13378d;color:inherit;padding:8px 16px}
 
-.button{border-radius:10px;width:25%;text-align:left;background-color:#13378d;color:inherit;/*padding:8px 16px*/}
+.button{border-radius:10px;width:fit-content;text-align:left;background-color:#13378d;color:inherit;/*padding:8px 16px*/}
 
 .buttongrd{/*border-radius:10px;*/width:fit-content;text-align:center;background-color:#13378d;color:inherit;/*padding:8px 16px*/}
 

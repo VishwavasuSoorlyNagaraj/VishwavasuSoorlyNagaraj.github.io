@@ -91,7 +91,7 @@
 
 .wrap {position: absolute;bottom: 0;top: 0;left: 0;right: 0;margin: auto;height: 310px;}
 
-.text-block {  position: absolute;  bottom: 30%;  right: 40%;  background-color: #223689;  color: #d4f542;  padding-left: 20px;  padding-right: 20px; width:20%; height:66%;opacity:0.9}
+.text-block {  position: absolute;  bottom: 30%;  right: 40%; /* background-color: #223689;*/  color: #d4f542;  padding-left: 20px;  padding-right: 20px; width:20%; height:66%;/*opacity:0.9*/}
 
 @font-face {
     font-family: "My Custom Font";

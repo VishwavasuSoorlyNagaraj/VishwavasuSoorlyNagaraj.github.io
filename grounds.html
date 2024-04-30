@@ -3,36 +3,42 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Developer,Designer,Copywriter: Vishwavasu Soorly Nagaraj" />
-   <meta name="description" content="Website for HCK" />
+   <meta name="description" content="Helsfyr Cricket Klubb Official Website" />
+   <meta name="keywords" content="HCK, Helsfyr, Cricket, HelsfyrCricketClub, HelsfyrCricketKlubb, Helsfyr Cricket, Cricket Norway, Cricket Oslo, Sports Oslo">
+   <meta name="google-site-verification" content="93dsAz2uPJwEP3FM7SJ_ddJh2ZlYcgJQoKu4UIqcyvM" />
    <link rel="stylesheet" href="style.css">
    <script src="scripts.js"></script>
    <head>
       <title>Cricket Grounds in Norway </title>
-   </head>
+		<link rel="icon" type="image/x-icon" href=".\Images\favicon.ico">
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
    <body class="bg">
-      <header class="hd">
+      <header>
          <!-- Navigation -->
-         <div style="display:grid;grid-template-columns:auto auto auto auto; background-color:#162c82">
-            <a href="index.html"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
-            <nav class="bar black navbar">
-               <a href="index.html" class="buttonbar bar-item">HOME</a>
-               <div class="subnav">
-                  <button class="subnavbtn"> HCK ▾<i class="fa fa-caret-down"></i></button>
+		 <div class="topnav" id="myTopnav">
+		 <a href="index.html" style="padding: 0px;"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
+			<a href="index.html" class="buttonbar bar-item active">HOME</a>
+            
+			<div class="subnav">	
+			<button class="subnavbtn"> HCK <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="about.html">ABOUT HCK</a>
-                     <a href="training.html">TRAINING</a>
-                     <a href="grounds.html">GROUNDS</a>
+                     <a href="about.html">ABOUT HCK </a>
+                     <a href="training.html">TRAINING </a>
+                     <a href="grounds.html">GROUNDS </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">TEAM  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">TEAM <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="players.html">PLAYERS</a>
-                     <a href="board.html">BOARD</a>
+                     <a href="players.html">PLAYERS </a>
+                     <a href="board.html">BOARD </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">MATCH CENTRE  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">MATCH CENTRE   <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
                      <a href="schedule.html">SCHEDULE</a>
                      <a href="results.html">RESULTS</a>
@@ -41,12 +47,13 @@
                </div>
                <a href="gallery.html" class="buttonbar bar-item">GALLERY</a>
                <a href="contact.html" class="buttonbar bar-item">CONTACT</a>
-            </nav>
-            <p class="black" style="margin-top:15px;grid-column-end: none; font-size: 15px;font-weight:bold">Follow HCK&nbsp;&nbsp;
-               <a style="margin-top: 15px" href="https://www.facebook.com/groups/1430036587219547" target="_blank"> <img src=".\Images\icon-facebook.png" alt="Facebook" style="height:19px"></a>
-               <a style="margin-top: 15px" href="https://www.instagram.com/helsfyrcricketklubbofficial/" target="_blank"><img src=".\Images\icon-instagram.png" alt="Instagram" style="height:19px"></a>
-            </p>
-         </div>
+					
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		
+		</div>
+
       </header>
 	  
       <h1 style="font-weight:bold;text-align:center;margin-top:100px;color:#efb442;font-size:40px;"> 
@@ -58,7 +65,7 @@
 		 
 		<div class="container-grounds" style="background-color:white;border-radius:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\CricketGround.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\CricketGround.jpg">
 			<div class="text-grounds">
 				<h3>Ekeberg</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Located in the tranquil environs of Ekeberg Park in Oslo, Norway.
@@ -78,7 +85,7 @@
 		
 		<div class="container-grounds" style="background-color:white;border-radius:20px;margin-top:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\CricketGround.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\CricketGround.jpg">
 			<div class="text-grounds">
 				<h3>Rommen</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Situated at Haavard Martinsens vei 35, Oslo, this charming cricket ground may be small but it offers a delightful experience.
@@ -98,7 +105,7 @@
 		
 		<div class="container-grounds" style="background-color:white;border-radius:20px;margin-top:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\CricketGround.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\CricketGround.jpg">
 			<div class="text-grounds">
 				<h3>Stubberudmyra</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Situated right next to IKEA furuset.
@@ -117,7 +124,7 @@
 		
 		<div class="container-grounds" style="background-color:white;border-radius:20px;margin-top:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\CricketGround.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\CricketGround.jpg">
 			<div class="text-grounds">
 				<h3>Bærum</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Situated in Kolsås.
@@ -136,7 +143,7 @@
 		
 		<div class="container-grounds" style="background-color:white;border-radius:20px;margin-top:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\CricketGround.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\CricketGround.jpg">
 			<div class="text-grounds">
 				<h3>Drammen</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Situated in Drammen. We car pool to this ground.
@@ -155,7 +162,7 @@
 		
 		<div class="container-grounds" style="background-color:white;border-radius:20px;margin-top:20px">
 			<div>
-				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Indoor.jpg">
+				<img style="max-width: 18%;border-radius: 20px;float: left;" src=".\Images\Grounds\Indoor.jpg">
 			<div class="text-grounds">
 				<h3>NCA Indoor</h3>
 				<p style="font-size:15px;margin-top:10px;margin-bottom:10px">Our indoor practice place in winter.

@@ -3,41 +3,48 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Developer,Designer,Copywriter: Vishwavasu Soorly Nagaraj" />
-   <meta name="description" content="Website for HCK" />
+   <meta name="description" content="Helsfyr Cricket Klubb Official Website" />
+   <meta name="keywords" content="HCK, Helsfyr, Cricket, HelsfyrCricketClub, HelsfyrCricketKlubb, Helsfyr Cricket, Cricket Norway, Cricket Oslo, Sports Oslo">
+   <meta name="google-site-verification" content="93dsAz2uPJwEP3FM7SJ_ddJh2ZlYcgJQoKu4UIqcyvM" />
    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script-->
    <link rel="stylesheet" href="style.css">
    <script src="scripts.js"></script>
     <head>
       <title>Helsfyr Cricket Klubb </title>
+		<link rel="icon" type="image/x-icon" href=".\Images\favicon.ico">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">   
+		<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">  
+
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
    <body class="bg">
-      <header class="hd">
+      <header>
          <!-- Navigation -->
-         <div style="display:grid;grid-template-columns:auto auto auto auto; background-color:#162c82">
-            <a href="index.html"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
-            <nav class="bar black navbar">
-               <a href="index.html" class="buttonbar bar-item">HOME</a>
-               <div class="subnav">
-                  <button class="subnavbtn"> HCK ▾<i class="fa fa-caret-down"></i></button>
+		 <div class="topnav" id="myTopnav">
+		 <a href="index.html" style="padding: 0px;"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
+			<a href="index.html" class="buttonbar bar-item">HOME</a>
+            
+			<div class="subnav">	
+			<button class="subnavbtn"> HCK <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="about.html">ABOUT HCK</a>
-                     <a href="training.html">TRAINING</a>
-                     <a href="grounds.html">GROUNDS</a>
+                     <a href="about.html">ABOUT HCK </a>
+                     <a href="training.html">TRAINING </a>
+                     <a href="grounds.html">GROUNDS </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">TEAM  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">TEAM <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="players.html">PLAYERS</a>
-                     <a href="board.html">BOARD</a>
+                     <a href="players.html">PLAYERS </a>
+                     <a href="board.html">BOARD </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">MATCH CENTRE  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">MATCH CENTRE   <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
                      <a href="schedule.html">SCHEDULE</a>
                      <a href="results.html">RESULTS</a>
@@ -46,36 +53,20 @@
                </div>
                <a href="gallery.html" class="buttonbar bar-item">GALLERY</a>
                <a href="contact.html" class="buttonbar bar-item">CONTACT</a>
-            </nav>
-            <p class="black" style="margin-top:15px;grid-column-end: none; font-size: 15px;font-weight:bold">Follow HCK&nbsp;&nbsp;
-               <a style="margin-top: 15px" href="https://www.facebook.com/groups/1430036587219547" target="_blank"> <img src=".\Images\icon-facebook.png" alt="Facebook" style="height:19px"></a>
-               <a style="margin-top: 15px" href="https://www.instagram.com/helsfyrcricketklubbofficial/" target="_blank"><img src=".\Images\icon-instagram.png" alt="Instagram" style="height:19px"></a>
-            </p>
-         </div>
-      </header>
-      <!-- Slide Show -->
-      <section>
-	  
+					
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
 		
-         <!--class="scale container center content transp" style="margin-top:50px;max-width:75%"> -->
-         <!--img class="mySlides" src=".\Images\homepageimg.jpg"  style="overflow: auto;width:100%;white-space: nowrap;"-->
-         <img class="mySlides" src=".\Images\joinus.png" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;padding-top:35px">
-			<!--div class="text-block">
-				<h1 class="yellowtail-regular" style="margin-bottom: 0px;font-size:88px; text-align:center">Join Our <br/> Exciting <br/>Cricket <br/>Family!</h1>
-				<p style="font-size:22px;text-align:center;margin-bottom: 0px;font-family:sans-serif">Experience fun and camaraderie at Helsfyr Cricket Club.
-					<br/><br/>
-				</p>
-			</div-->
-         <!--img class="mySlides" src=".\Images\homepageimg3.jpg" style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="mySlides" src=".\Images\homepageimg4.jpg" style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="mySlides" src=".\Images\homepageimg2.jpg" style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="mySlides" src=".\Images\homepageimg5.jpg" style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="mySlides" src=".\Images\homepageimg6.jpg" style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="mySlides" src=".\Images\homepageimg7.jpg" style="overflow: auto;width:100%;white-space: nowrap;"-->
+		</div>
+
+      </header>
+      <section>
+         <img class="mySlides" src=".\Images\joinus.png" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;padding-top:0px">
       </section>
 	  
 	  <!-- Section: Join us -->
-      <section class="container center content transp" style="margin-top:30px;max-width:75%;">
+      <section class="container center content transp" style="margin-top:30px;max-width:75%;margin-bottom:50px">
          <div style="color:white">
             <p class="black" style="font-size: 35px;">Fancy playing cricket in Oslo's scenic chill? Swing by the 
                <span style="text-decoration:underline;color:white;font-weight:bold"> Helsfyr Cricket Club! </span> 
@@ -102,63 +93,57 @@
       </section>
 
 <!-- Upcoming Match and Recent Match-->
-
-
 		
 		<!-- Upcoming Match -->
-      <section class="container center content transp" style="margin-top:50px;max-width:75%">
-         <h2 class="wide black" style="border-bottom:2px solid #f9f50047;text-align:center">UPCOMING MATCH</h2>
-         <div style="column-count:2">
-            <p style="font-size:15px;color:white;margin-top: 0px;margin-bottom: 0px;border-right:0.5px solid #f9f50047;">
-               <br/>
-               <span style="display: flex;font-size:20px;justify-content:center">
-               NORD B CK &nbsp; VS HELSFYR CK &nbsp;&nbsp;&nbsp;(Super League)&nbsp;&nbsp;&nbsp;
-               </span>
-            </p>
-            <p 	class="container center content" 
-               style="text-align:center;color:white;border-radius:13px;font-size:25px;width:fit-content;margin-bottom:10px;font-weight:bold">
-               May 05, 2024, Saturday 14:00 CET
-               <button class="buttonlive" style="margin:10px;text-align:center">
-                  <span id="countdown" style="color:black;font-size: 18px;width:fit-content;text-align: center;margin-bottom=0px;margin-top=0px">
-                  </span>
-                  </a>
+ 	  
+        <h2 class="wide black" style="border-bottom:2px solid #f9f50047;text-align:center;margin: auto; max-width: 75%; align-items: center;">UPCOMING MATCH</h2>
+	  	<div class="container schedulebox schedulegrid" style="color:white; background:rgba(4, 14, 38, 0.55); margin-left: auto;margin-right: auto;margin-top: 10px; max-width: 75%; align-items: center; border-bottom: none; border-top: none">
+		 <br/>
+			
+			<div style="width:50%;text-align:center;">
+				<p style="font-size: 24px;"> NORD B CK &nbsp; VS HELSFYR CK &nbsp;&nbsp;&nbsp;(Super League)&nbsp;&nbsp;&nbsp; </p>
+			</div>
+		 
+			<div class="schedulegridright" style="width:50%">
+				<p style="font-size: 24px;font-weight:bold">May 05, 2024, Saturday 14:00 CET</p>
+				<button class="buttonlive" style="margin:10px;text-align:center">
+                  <span id="countdown" style="color:black;font-size: 20px;width:fit-content;text-align: center;margin-bottom:0px;margin-top:0px;font-weight:bold"> </span>
                </button>
-            </p>
-         </div>
-      </section>
-	
+			</div>
+		</div>
 		
       <!-- Recent Match Result -->
-      <section class="container center content transp" style="margin-top:10px;max-width:75%;margin-bottom:30px">
-         <h2 class="wide black" style="border-bottom:2px solid #f9f50047;text-align:center">RECENT MATCH</h2>
-         <div style="column-count:2">
-            <p style="font-size:15px;color:white;margin-top: 0px;margin-bottom: 0px;border-right:0.5px solid #f9f50047;text-align:center">
-               <i>6 Sep 2023 - Qualifying B T20 Championship 2023</i>
+	  
+	  
+	    <h2 class="wide black" style="border-bottom:2px solid #f9f50047;text-align:center;margin: auto; max-width: 75%; align-items: center;">RECENT MATCH</h2>
+	  	<div class="container schedulebox schedulegrid" style="color:white; background:rgba(4, 14, 38, 0.55); margin-left: auto;margin-right: auto;margin-top: 10px; max-width: 75%; align-items: center; border-bottom: none; border-top: none">
+		 <br/>
+			
+			<div style="width:50%;text-align:center;">
+				<p style="font-size: 15px;"> 6 Sep 2023 - Qualifying B T20 Championship 2023 </p>
+				<br/>
                <br/>
-               <br/>
-               <span style="display: flex;font-size:20px;justify-content:center">
+               <span style="display: flex;font-size:24px;justify-content:center">
                MASK C CK:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                <br/>
                HELSFYR CK:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <span style="font-size:20px;font-weight:bold">
+               <span style="font-size:24px;font-weight:bold">
                111/10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                <br/>
                &nbsp;&nbsp;79/10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                <br/><br/>
                </span>
                </span>
-            </p>
-            <p 	class="container center content transp-sec" 
-               style="text-align:center;color:black;border-radius: 13px;font-size:20px;width:fit-content;margin-bottom:30px;font-weight:bold">
-               MASK C CK Won by 32 Run(s)&nbsp;&nbsp;&nbsp; <br/>
-				<button class="button" style="margin:10px;">
-					<a href="https://cricclubs.com/NCF/viewScorecard.do?matchId=5063&clubId=14968" target="_blank" style="color:white;text-decoration:none;text-align:center">Scorecard
-					</a>
-				</button>
-            </p>
-         </div>
-      </section>
-            
+			</div>
+		 
+			<div class="schedulegridright" style="width:50%">
+				<button class="buttonlive" style="margin:10px;text-align:center">
+					<p style="color:Black;font-size: 20px;font-weight:bold">MASK C CK Won by 32 Run(s)&nbsp;&nbsp;&nbsp; <br/><br/>	
+						<a href="https://cricclubs.com/NCF/viewScorecard.do?matchId=5063&clubId=14968" target="_blank" style="color:Blue;text-align:center"> Scorecard </a>
+					</p>
+               </button>
+			</div>
+		</div>     
 			
 			
         <!-- Automatic Slideshow - change image every 3 seconds -->
@@ -216,6 +201,20 @@
                 }
             }, 1000);
         </script>
+		
+		<!--Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon 
+			Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+		<script>
+			
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>		
     <!--Footer details-->  
     <footer class="ft ">
        <!-- Small team logo -->

@@ -3,7 +3,9 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Developer,Designer,Copywriter: Vishwavasu Soorly Nagaraj" />
-   <meta name="description" content="Website for HCK" />
+   <meta name="description" content="Helsfyr Cricket Klubb Official Website" />
+   <meta name="keywords" content="HCK, Helsfyr, Cricket, HelsfyrCricketClub, HelsfyrCricketKlubb, Helsfyr Cricket, Cricket Norway, Cricket Oslo, Sports Oslo">
+   <meta name="google-site-verification" content="93dsAz2uPJwEP3FM7SJ_ddJh2ZlYcgJQoKu4UIqcyvM" />
    <link rel="stylesheet" href="style.css">
    <script src="scripts.js"></script>
    <style>
@@ -59,31 +61,35 @@
 
    <head>
       <title> Gallery </title>
-   </head>
+		<link rel="icon" type="image/x-icon" href=".\Images\favicon.ico">
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
    <body class="bg">
-      <header class="hd">
+      <header>
          <!-- Navigation -->
-         <div style="display:grid;grid-template-columns:auto auto auto auto; background-color:#162c82">
-            <a href="index.html"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
-            <nav class="bar black navbar">
-               <a href="index.html" class="buttonbar bar-item">HOME</a>
-               <div class="subnav">
-                  <button class="subnavbtn"> HCK ▾<i class="fa fa-caret-down"></i></button>
+		 <div class="topnav" id="myTopnav">
+		 <a href="index.html" style="padding: 0px;"> <img class="logo" src=".\Images\HeaderLogo.png" alt="Team Logo">	</a>
+			<a href="index.html" class="buttonbar bar-item active">HOME</a>
+            
+			<div class="subnav">	
+			<button class="subnavbtn"> HCK <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="about.html">ABOUT HCK</a>
-                     <a href="training.html">TRAINING</a>
-                     <a href="grounds.html">GROUNDS</a>
+                     <a href="about.html">ABOUT HCK </a>
+                     <a href="training.html">TRAINING </a>
+                     <a href="grounds.html">GROUNDS </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">TEAM  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">TEAM <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
-                     <a href="players.html">PLAYERS</a>
-                     <a href="board.html">BOARD</a>
+                     <a href="players.html">PLAYERS </a>
+                     <a href="board.html">BOARD </a>
                   </div>
                </div>
                <div class="subnav">
-                  <button class="subnavbtn">MATCH CENTRE  ▾<i class="fa fa-caret-down"></i></button>
+                  <button class="subnavbtn">MATCH CENTRE   <i class="fa fa-caret-down"></i></button>
                   <div class="subnav-content">
                      <a href="schedule.html">SCHEDULE</a>
                      <a href="results.html">RESULTS</a>
@@ -92,25 +98,22 @@
                </div>
                <a href="gallery.html" class="buttonbar bar-item">GALLERY</a>
                <a href="contact.html" class="buttonbar bar-item">CONTACT</a>
-            </nav>
-            <p class="black" style="margin-top:15px;grid-column-end: none; font-size: 15px;font-weight:bold">Follow HCK&nbsp;&nbsp;
-               <a style="margin-top: 15px" href="https://www.facebook.com/groups/1430036587219547" target="_blank"> <img src=".\Images\icon-facebook.png" alt="Facebook" style="height:19px"></a>
-               <a style="margin-top: 15px" href="https://www.instagram.com/helsfyrcricketklubbofficial/" target="_blank"><img src=".\Images\icon-instagram.png" alt="Instagram" style="height:19px"></a>
-            </p>
-         </div>
+					
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		
+		</div>
+
       </header>
 	        <!-- Slide Show -->
       <section style="margin-top:60px">
 	  
 		
-         <img class="scrollslides" src=".\Images\homepageimg.jpg"  style="overflow: auto;width:100%;white-space: nowrap;">
-         <img class="scrollslides" src=".\Images\homepageimg1.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
-         <!--img class="scrollslides" src=".\Images\homepageimg3.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
-         <img class="scrollslides" src=".\Images\homepageimg4.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;"-->
-         <img class="scrollslides" src=".\Images\homepageimg2.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
-         <img class="scrollslides" src=".\Images\homepageimg5.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
-         <!--img class="scrollslides" src=".\Images\homepageimg6.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
-         <img class="scrollslides" src=".\Images\homepageimg7.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;"-->
+         <img class="scrollslides" src=".\Images\Gallery\homepageimg.jpg"  style="overflow: auto;width:100%;white-space: nowrap;">
+         <img class="scrollslides" src=".\Images\Gallery\homepageimg1.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
+         <img class="scrollslides" src=".\Images\Gallery\homepageimg2.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
+         <img class="scrollslides" src=".\Images\Gallery\homepageimg5.jpg" style="overflow: auto;width:-webkit-fill-available;white-space: nowrap;">
       </section>
 	  
 	  <!-- Automatic Slideshow - change image every 3 seconds -->
@@ -138,70 +141,70 @@
 		<!-- The four columns -->
 		<div class="row" style="margin:10px;margin-bottom:40px;background-color:white;padding:10px">
 			<div class="column">
-				<img src=".\Images\1.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\1.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\2.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\2.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\3.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\3.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\4.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\4.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\5.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\5.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\6.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\6.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\7.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\7.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\8.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\8.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\9.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\9.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\10.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\10.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\11.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\11.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\12.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\12.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\13.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\13.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\14.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\14.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\15.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\15.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\16.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\16.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\17.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\17.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\18.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\18.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\19.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\19.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\20.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\20.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\21.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\21.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
 			</div>
 			<div class="column">
-				<img src=".\Images\22.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+				<img src=".\Images\Gallery\22.jpg" style="width:100%;height:290px;margin-top:20px" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
 			</div>
 			</div>
 			
@@ -210,74 +213,74 @@
 			<div class="modal-content">
 			
 				<div class="mySlides">
-				<img src=".\Images\1.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\1.jpg" style="width:100%;height:750px">
 				</div>
 			
 				<div class="mySlides">
-				<img src=".\Images\2.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\2.jpg" style="width:100%;height:750px">
 				</div>
 			
 				<div class="mySlides">
-				<img src=".\Images\3.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\3.jpg" style="width:100%;height:750px">
 				</div>
 				
 				<div class="mySlides">
-				<img src=".\Images\4.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\4.jpg" style="width:100%;height:750px">
 				</div>
 
 				<div class="mySlides">
-				<img src=".\Images\5.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\5.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\6.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\6.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\7.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\7.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\8.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\8.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\9.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\9.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\10.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\10.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\11.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\11.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\12.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\12.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\13.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\13.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\14.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\14.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\15.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\15.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\16.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\16.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\17.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\17.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\18.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\18.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\19.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\19.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\20.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\20.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\21.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\21.jpg" style="width:100%;height:750px">
 				</div>
 				<div class="mySlides">
-				<img src=".\Images\22.jpg" style="width:100%;height:750px">
+				<img src=".\Images\Gallery\22.jpg" style="width:100%;height:750px">
 				</div>
 				
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
